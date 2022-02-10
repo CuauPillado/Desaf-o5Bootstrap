@@ -12,7 +12,7 @@ body{
 
 /*Inicia Flexbox del Header*/
 header{
-    background-color: #008037;
+    background: linear-gradient(to bottom, #008037, #CEFAD2);
     width: 100%;
     height: 100px; 
     display: flex;
@@ -34,8 +34,8 @@ header{
 .navegadorSitio ul li a{
     text-decoration: none;
     text-transform: uppercase;
-    border: solid 2px white;
-    background-color: #a6a6a6;
+    border: solid 1px white;
+    background-color: #CEFAD2;
 
 }
 
@@ -167,6 +167,7 @@ table{
 /*Inicia Style del Footer*/
 
 footer{
+    background: linear-gradient(to top, #008037, #CEFAD2);
     background-color: #008037;
     width: 100%;
     height: 100px;
@@ -179,8 +180,8 @@ footer ul li a {
     margin-left: 15px;
     text-decoration: none;
     text-transform: uppercase;
-    border: solid 2px white;
-    background-color: #a6a6a6;
+    border: solid 1px white;
+    background-color: #CEFAD2;
 }
 
 /* Vista Móvil*/
